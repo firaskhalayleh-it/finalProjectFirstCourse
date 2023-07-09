@@ -1,0 +1,45 @@
+*{
+  padding: 0px;
+}
+body {
+  background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  color:black;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px;
+}
+.character {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px; /* Add this line */
+}
+
+.character:last-child {
+  margin-right: 0; /* Remove the margin on the last character */
+}
+
+
+.character-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.character-info {
+  flex-grow: 1;
+}
+
+.character-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.character-detail {
+  margin-bottom: 5px;
+}
+
